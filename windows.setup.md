@@ -1,0 +1,1 @@
+choco install -y nodejs.install git.install python2 yarn pywin32 
