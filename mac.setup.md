@@ -1,6 +1,9 @@
 # package manager
+```shell
 mkdir homebrew && curl -L https://github.com/Homebrew/brew/tarball/master | tar xz --strip 1 -C homebrew
-
+```
 # dependencies
-brew install git python3 python2 yarn vscode vim
-brew install extraterm
+```shell
+brew install git python3 yarn vim
+brew cask install visual-studio-code extraterm terminus
+```
