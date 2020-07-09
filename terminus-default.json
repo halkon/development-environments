@@ -1,0 +1,189 @@
+qc:
+  cmds: []
+hotkeys:
+  qc:
+    - Alt-Q
+  ctrl-c:
+    - Ctrl-C
+  copy:
+    - ⌘-C
+  paste:
+    - ⌘-V
+  clear:
+    - ⌘-K
+  zoom-in:
+    - ⌘-=
+    - ⌘-Shift-=
+  zoom-out:
+    - ⌘--
+    - ⌘-Shift--
+  reset-zoom:
+    - ⌘-0
+  new-tab:
+    - ⌘-T
+  home:
+    - ⌘-Left
+    - Home
+  end:
+    - ⌘-Right
+    - End
+  previous-word:
+    - ⌥-Left
+  next-word:
+    - ⌥-Right
+  delete-previous-word:
+    - ⌥-Backspace
+  delete-next-word:
+    - ⌥-Delete
+  search:
+    - ⌘-F
+  shell: {}
+  profile: {}
+  serial:
+    - Alt-K
+  settings:
+    - '⌘-,'
+  ssh:
+    - Alt-S
+  new-window:
+    - ⌘-N
+  toggle-window:
+    - Ctrl+Space
+  toggle-fullscreen:
+    - Ctrl+⌘+F
+  close-tab:
+    - ⌘-W
+  reopen-tab:
+    - ⌘-Shift-T
+  toggle-last-tab: []
+  rename-tab:
+    - ⌘-R
+  next-tab:
+    - Ctrl-Tab
+  previous-tab:
+    - Ctrl-Shift-Tab
+  move-tab-left:
+    - ⌘-Shift-Left
+  move-tab-right:
+    - ⌘-Shift-Right
+  tab-1:
+    - ⌘-1
+  tab-2:
+    - ⌘-2
+  tab-3:
+    - ⌘-3
+  tab-4:
+    - ⌘-4
+  tab-5:
+    - ⌘-5
+  tab-6:
+    - ⌘-6
+  tab-7:
+    - ⌘-7
+  tab-8:
+    - ⌘-8
+  tab-9:
+    - ⌘-9
+  tab-10:
+    - ⌘-0
+  split-right:
+    - ⌘-Shift-D
+  split-bottom:
+    - ⌘-D
+  split-left: []
+  split-top: []
+  pane-nav-right:
+    - ⌘-⌥-Right
+  pane-nav-down:
+    - ⌘-⌥-Down
+  pane-nav-up:
+    - ⌘-⌥-Up
+  pane-nav-left:
+    - ⌘-⌥-Left
+  pane-maximize:
+    - ⌘-⌥-Enter
+  close-pane:
+    - ⌘-Shift-W
+terminal:
+  font: Menlo
+  shell: default
+  profile: user-default
+  frontend: xterm
+  autoOpen: false
+  fontSize: 14
+  fallbackFont: null
+  linePadding: 0
+  bell: 'off'
+  bracketedPaste: false
+  background: theme
+  ligatures: false
+  cursor: block
+  cursorBlink: true
+  customShell: ''
+  rightClick: menu
+  pasteOnMiddleClick: true
+  copyOnSelect: false
+  scrollOnInput: true
+  workingDirectory: ''
+  alwaysUseWorkingDirectory: false
+  altIsMeta: false
+  wordSeparator: ' ()[]{}''"'
+  colorScheme:
+    name: Material
+    foreground: '#eceff1'
+    background: 'rgba(38, 50, 56, 1)'
+    selection: null
+    cursor: '#FFCC00'
+    colors:
+      - '#000000'
+      - '#D62341'
+      - '#9ECE58'
+      - '#FAED70'
+      - '#396FE2'
+      - '#BB80B3'
+      - '#2DDAFD'
+      - '#d0d0d0'
+      - 'rgba(255, 255, 255, 0.2)'
+      - '#FF5370'
+      - '#C3E88D'
+      - '#FFCB6B'
+      - '#82AAFF'
+      - '#C792EA'
+      - '#89DDFF'
+      - '#ffffff'
+  customColorSchemes: []
+  environment: {}
+  profiles: []
+  useConPTY: true
+  recoverTabs: true
+  warnOnMultilinePaste: true
+  showDefaultProfiles: true
+serial:
+  connections: []
+  options: {}
+ssh:
+  connections: []
+  recentConnections: []
+  options: {}
+pluginBlacklist:
+  - ssh
+appearance:
+  dock: 'off'
+  dockScreen: current
+  dockFill: 0.5
+  dockHideOnBlur: false
+  dockAlwaysOnTop: true
+  tabsLocation: top
+  cycleTabs: true
+  theme: Standard
+  frame: thin
+  css: '/* * { color: blue !important; } */'
+  opacity: 1
+  vibrancy: true
+  vibrancyType: blur
+enableAnalytics: true
+enableWelcomeTab: true
+electronFlags:
+  - - force_discrete_gpu
+    - '0'
+enableAutomaticUpdates: true
