@@ -46,6 +46,7 @@ appearance:
   frame: thin
   dock: 'off'
   tabsLocation: top
+  vibrancyType: fluent
 enableWelcomeTab: false
 pluginBlacklist:
   - serial
