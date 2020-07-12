@@ -29,6 +29,27 @@ terminal:
   bell: visual
   bracketedPaste: true
   autoOpen: true
+  ligatures: true
+  fallbackFont: Consolas Regular
+  profile: git-bash
+  profiles:
+    - name: Default (WSL / Ubuntu-20.04)
+      shell: default
+      sessionOptions:
+        command: 'C:\Windows\system32\wsl.exe'
+        args:
+          - '-d'
+          - Ubuntu-20.04
+        env: {}
+    - name: Git-Bash
+      shell: git-bash
+      sessionOptions:
+        command: 'C:\Program Files\Git\bin\bash.exe'
+        args:
+          - '--login'
+          - '-i'
+        env:
+          TERM: cygwin
 hotkeys:
   shell: {}
   profile: {}
@@ -38,10 +59,13 @@ hotkeys:
   previous-tab:
     - - Ctrl-Shift-Tab
     - - '⌘-Shift-['
+  toggle-window: []
+  clear:
+    - - Ctrl-Shift-K
 serial: {}
 ssh: {}
 appearance:
-  theme: Gruvbox
+  theme: Standard
   opacity: 1
   frame: thin
   dock: 'off'
