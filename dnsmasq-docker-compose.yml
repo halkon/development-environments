@@ -1,0 +1,34 @@
+version: '3.8'
+
+services:
+  dev-dnsmasq:
+    container_name: dev-dnsmasq
+    image: jpillora/dnsmasq
+    restart: always
+    ports:
+      - 5380:8080
+      - "53:53"
+    volumes:
+      - ./dnsmasq.conf:/etc/dnsmasq.conf
+    logging:
+      options:
+        max-size: 100k
+    cap_add:
+      - NET_RAW
+      - NET_ADMIN
+      - SYS_PTRACE
+    environment:
+      HTTP_USER: halkon
+      HTTP_PASS: password
+
+
+# docker run \
+#     --name dnsmasq \
+#     -d \
+#     -p 53:53/udp \
+#     -p 5380:8080 \
+#     -v /opt/dnsmasq.conf:/etc/dnsmasq.conf \
+#     --log-opt "max-size=100m" \
+#     -e "HTTP_USER=foo" \
+#     -e "HTTP_PASS=bar" \
+#     --restart always \
