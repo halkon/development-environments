@@ -17,7 +17,7 @@ brew install --cask viscosity visual-studio-code extraterm alacritty docker
 ## Productivity
 brew install --cask google-chrome bettertouchtool flotato marshallofsound-google-play-music-player microsoft-office google-photos-backup-and-sync plex vlc
 ## Messaging
-brew install --cask telegram signal whatsapp zoom slack google-chat viber skype
+brew install --cask telegram signal whatsapp zoom slack google-chat viber skype discord
 ## Synology
 brew install synology-chat synology-note-station-client homebrew/cask-drivers/synology-cloud-station-backup homebrew/cask-drivers/synology-photo-station-uploader homebrew/cask-drivers/synology-drive
 ## Broken
