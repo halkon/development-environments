@@ -17,7 +17,7 @@ brew install tmux tmux-xpanes tmuxinator
 brew install --cask viscosity visual-studio-code extraterm alacritty docker
 
 ## Productivity
-brew install --cask google-chrome bettertouchtool flotato marshallofsound-google-play-music-player microsoft-office google-photos-backup-and-sync plex vlc
+brew install --cask google-chrome bettertouchtool flotato marshallofsound-google-play-music-player microsoft-office google-photos-backup-and-sync plex vlc disk-inventory-x
 ## Messaging
 brew install --cask telegram signal whatsapp zoom slack google-chat viber skype discord
 ## Synology
