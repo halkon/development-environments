@@ -12,13 +12,14 @@ mkdir homebrew && curl -L https://github.com/Homebrew/brew/tarball/master | tar 
 
 ```shell
 ## Dev
-brew install git fish python3 yarn vim htop ffmpeg pulumi wireshark awscli moreutils coreutils docker-completion node@14 nvm watch wget jd jq pipenv postman
+brew install git fish python3 yarn vim htop ffmpeg pulumi wireshark awscli moreutils coreutils docker-completion node@14 nvm watch wget jd jq yq pipenv postman
 brew install tmux tmux-xpanes tmuxinator
 brew install --cask viscosity visual-studio-code extraterm alacritty docker
 ## Design
 brew install --cask adobe-creative-cloud
 ## Productivity
-brew install --cask google-chrome bettertouchtool flotato ytmdesktop-youtube-music microsoft-office google-photos-backup-and-sync plex vlc disk-inventory-x
+brew install --cask google-chrome ytmdesktop-youtube-music microsoft-office google-photos-backup-and-sync plex vlc disk-inventory-x
+brew install --cask bettertouchtool flotato 
 ## Messaging
 brew install --cask telegram signal whatsapp zoom slack google-chat viber skype discord
 ## Synology

@@ -1,4 +1,4 @@
-# package manager
+# Package manager
 
 ```powershell
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
@@ -21,27 +21,24 @@ Download <https://docs.microsoft.com/en-us/windows/wsl/install-win10#step-4---do
 wsl --set-default-version 2
 ```
 
-## Dependencies
-
+## Dependencies (Windows)
 
 ```powershell
-choco install -y nodejs.install git.install python3 python2 yarn pywin32 vscode vim terminus
-choco install extraterm.install --pre
+## Dev
+choco install -y git python3 yarn vim ntop.portable ffmpeg pulumi wireshark awscli gnuwin32-coreutils.install nvm wget jq yq postman
+choco install -y nodejs --version=14.16.1
+choco install -y pipenv --source python
+choco install -y python2 pywin32
+choco install -y vscode alacritty docker terminus vscode
+## Design
+choco install -y adobe-creative-cloud
+## Productivity
+choco install -y googlechrome ytmdesktop office365homepremium google-backup-and-sync plex vlc windirstat procexp
+## Messaging
+choco install -y telegram signal whatsapp zoom slack google-hangouts-chat viber skype discord
+## Synology
+## Broken
+choco install -y ytmdesktop adobe-creative-cloud office365homepremium
+
 ```
 
-```shell
-## Dev
-brew install git fish python3 yarn vim htop ffmpeg pulumi wireshark awscli moreutils coreutils docker-completion node@14 nvm watch wget jd jq pipenv postman
-brew install tmux tmux-xpanes tmuxinator
-brew install --cask viscosity visual-studio-code extraterm alacritty docker
-## Design
-brew install --cask adobe-creative-cloud
-## Productivity
-brew install --cask google-chrome bettertouchtool flotato ytmdesktop-youtube-music microsoft-office google-photos-backup-and-sync plex vlc disk-inventory-x
-## Messaging
-brew install --cask telegram signal whatsapp zoom slack google-chat viber skype discord
-## Synology
-brew install synology-chat synology-note-station-client homebrew/cask-drivers/synology-cloud-station-backup homebrew/cask-drivers/synology-photo-station-uploader homebrew/cask-drivers/synology-drive
-## Broken
-brew install --cask terminus
-```
