@@ -29,7 +29,7 @@ choco install -y git python3 yarn vim ntop.portable ffmpeg pulumi wireshark awsc
 choco install -y nodejs --version=14.16.1
 choco install -y pipenv --source python
 choco install -y python2 pywin32
-choco install -y vscode alacritty docker terminus vscode
+choco install -y vscode alacritty docker terminus
 ## Design
 choco install -y adobe-creative-cloud
 ## Productivity
