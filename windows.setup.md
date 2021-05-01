@@ -42,3 +42,5 @@ choco install -y ytmdesktop adobe-creative-cloud office365homepremium
 
 ```
 
+- <https://www.sparklabs.com/viscosity/>
+- <https://www.globaldelight.com/boom/>
