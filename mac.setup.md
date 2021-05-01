@@ -18,7 +18,7 @@ brew install --cask viscosity visual-studio-code extraterm alacritty docker
 ## Design
 brew install --cask adobe-creative-cloud
 ## Productivity
-brew install --cask google-chrome ytmdesktop-youtube-music microsoft-office google-photos-backup-and-sync plex vlc disk-inventory-x
+brew install --cask google-chrome ytmdesktop-youtube-music microsoft-office google-photos-backup-and-sync plex vlc disk-inventory-x boom-3d
 brew install --cask bettertouchtool flotato 
 ## Messaging
 brew install --cask telegram signal whatsapp zoom slack google-chat viber skype discord
