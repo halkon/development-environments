@@ -27,3 +27,19 @@ brew install synology-chat synology-note-station-client homebrew/cask-drivers/sy
 ## Broken
 brew install --cask terminus
 ```
+
+## Configuration 
+
+### To disable the internal keyboard of a portable Mac:
+
+```shell
+sudo kextunload /System/Library/Extensions/AppleUSBTopCase.kext/Contents/PlugIns/AppleUSBTCKeyboard.kext/ 
+```
+
+### To re-enable the internal keyboard of a portable Mac:
+
+```shell
+sudo kextload /System/Library/Extensions/AppleUSBTopCase.kext/Contents/PlugIns/AppleUSBTCKeyboard.kext/
+```
+
+[Source](https://superuser.com/a/665971)
