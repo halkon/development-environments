@@ -12,9 +12,9 @@
 
 ```shell
 ## Dev
+brew install --cask viscosity visual-studio-code alacritty docker bitwarden
 brew install git fish python3 yarn vim htop ffmpeg pulumi wireshark awscli moreutils coreutils docker-completion node@14 nvm watch wget jd jq yq pipenv postman
 brew install tmux tmux-xpanes tmuxinator
-brew install --cask viscosity visual-studio-code extraterm alacritty docker
 ## Design
 brew install --cask adobe-creative-cloud
 ## Productivity
@@ -23,9 +23,7 @@ brew install --cask bettertouchtool flotato
 ## Messaging
 brew install --cask telegram signal whatsapp zoom slack google-chat viber skype discord
 ## Synology
-brew install synology-chat synology-note-station-client homebrew/cask-drivers/synology-cloud-station-backup homebrew/cask-drivers/synology-photo-station-uploader homebrew/cask-drivers/synology-drive
-## Broken
-brew install --cask terminus
+brew install synology-chat synology-note-station-client homebrew/cask-drivers/synology-drive
 ```
 
 ## Configuration 
