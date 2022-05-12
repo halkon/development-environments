@@ -8,18 +8,54 @@
 
 <https://github.com/Twixes/SF-Mono-Powerline.git>
 
+```shell
+brew tap homebrew/cask-fonts
+brew install --cask font-sf-mono-for-powerline
+```
+
+## Shell
+
+```shell
+brew install fish
+echo `which fish` | sudo tee -a /etc/shells
+chsh -s `which fish`
+
+cat << EOF
+
+# HomeBrew
+if status --is-interactive
+  eval ($(which brew) shellenv)
+end
+EOF
+```
+
 ## Dependencies
 
 ```shell
 ## Dev
-brew install --cask viscosity visual-studio-code alacritty docker bitwarden
-brew install git fish python3 yarn vim htop ffmpeg pulumi wireshark awscli moreutils coreutils docker-completion node@14 nvm watch wget jd jq yq pipenv postman
+brew install --cask visual-studio-code bitwarden
+brew install git python3 yarn vim htop wireshark moreutils coreutils nvm watch wget jd jq yq pipenv postman
+### Optional
+brew install docker-completion node@14
+### Cloud
+brew install pulumi terraform
+brew install --cask google-cloud-sdk
+brew install awscli
+### Video
+brew install ffmpeg
+### Containers
+brew install minikube skaffold
+brew install --cask docker
+### Terminal 
+brew install --cask viscosity alacritty 
 brew install tmux tmux-xpanes tmuxinator
 ## Design
 brew install --cask adobe-creative-cloud
 ## Productivity
-brew install --cask google-chrome ytmdesktop-youtube-music microsoft-office google-photos-backup-and-sync plex vlc disk-inventory-x boom-3d
-brew install --cask bettertouchtool flotato 
+brew install --cask google-chrome bettertouchtool flotato boom-3d disk-inventory-x
+brew install --cask microsoft-office
+## Entertainment
+brew install --cask ytmdesktop-youtube-music plex vlc
 ## Messaging
 brew install --cask telegram signal whatsapp zoom slack google-chat viber skype discord
 ## Synology
