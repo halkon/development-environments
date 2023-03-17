@@ -57,3 +57,9 @@ choco install -y ytmdesktop adobe-creative-cloud office365homepremium
     "keys": "ctrl+alt+k"
 },
 ```
+
+## Windows Shutdown debugging
+
+```powershell
+wevtutil qe System /q:"*[System[(EventID=41) or (EventID=1074) or (EventID=6006) or (EventID=6005) or (EventID=6008)]]" /c:100 /f:text /rd:true 
+```
